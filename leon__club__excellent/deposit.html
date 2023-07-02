@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Депозит</title>
+    <link rel="stylesheet" href="file.css/deposit.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <span class="logo">Логотип.</span>
+                </div>
+                <div class="header__right">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="/index.html">Главная</a></li>
+                            <li><a href="/deposit.html">Депозиты</a></li>
+                            <li><a href="/rules.html">Правила</a></li>
+                        </ul>
+                        <div class="header__right-content">
+                            <div class="header__right-content-wrapper">
+                                <div class="icon__header">
+                                    <a href="https://t.me/pokerleonclub">
+                                        <img src="img/Telegram.png" alt="" class="social_networks">
+                                    </a> 
+                                    <a href="https://api.whatsapp.com/message/OWZUDDD6VNM2A1?autoload=1&app_absent=0">
+                                        <img src="img/WhatsApp.png" alt="" class="social_networks">
+                                    </a> 
+                                    <a href="https://www.instagram.com/pokerleonclub/?igshid=MzRlODBiNWFlZA%3D%3D">
+                                        <img src="img/Instagram.png" alt="" class="social_networks">
+                                    </a>          
+                                </div>
+                                <button class="button__header">
+                                    <a href="/index.html#section__install">Скачать</a>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="info">
+            <div class="container">
+                <div class="content">
+                    <div class="content__info">
+                        <h3>Депозиты</h3>
+                        <div class="text__info">
+                            <p>Для пополнения баланса в нашем клубе доступны три способа оплаты, перечисленные ниже. Если один из них </p>
+                            <div class="row">
+                            <p> вам подходит,вы можете отправить деньги на указанные реквизиты и прислать чек агенту клуба</p>
+                            <div class="contacts__row">
+                                <img src="img/Telegram __instru.png" alt="">
+                                <a href="https://t.me/LeonAgent1">LeonAgent1</a>
+                            </div>
+                        </div>
+                        <p>Фишки будут зачислены на ваш счет в течение нескольких часов.</p>
+                    
+                        </div>
+                    </div>
+
+                    <div class="content__way">
+                        <h5>Пополнить баланс можно через</h5>
+                        <div class="ways">
+                            <div class="block" id="block1">
+                                <div class="closed-content">
+                                    <div class="block__Way">
+                                        <div class="text__block">
+                                            <p>Криптовалюта</p>
+                                            <div class="img__cryp">
+                                              <img src="img/Bitcoin.png" alt="">
+                                              <img src="img/Tether.png" alt="">
+                                              <img src="img/Ethereum.png" alt="">
+                                              <img src="img/Polygon_Blockchain_Matic_Logo 1.png" alt="">
+                                            </div>
+                                        </div>
+                                        <button onclick="toggleBlock('block1')" class="switch"><img src="img/Alt Arrow.png" alt="" class="switch__img"></button>
+                                    </div>
+                            
+                                </div>
+                                <div class="open-content">
+                                    <div class="block__open__Way">
+                                        <div class="text__open__block">
+                                            <div class="row open">
+                                                <p>Bep20</p>
+                                                <span>0x2123bf865304ae66b64a908f4cff54893dfc8389</span>
+                                                <button onclick="copyText(this)" class="copier"><img src="/img/Copy__img.png" alt="" class="copy__img"></button>    
+                                              </div>
+                                              
+                                              <div class="row open">
+                                                <p>Trc20</p>
+                                                <span>TR6zRwt7ug43qUTEc3o7J7fyE9SoK3GpjR</span>
+                                                <button onclick="copyText(this)" class="copier"><img src="/img/Copy__img.png" alt=""></button>    
+                                              </div>
+                                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                            <div class="block" id="block2">
+                                <div class="closed-content">
+                                    <div class="block__Way">
+                                        <div class="text__block">
+                                            <p>Банковская карта</p>
+                                            <div class="img__cryp">
+                                              <img src="img/Visa_2021.png" alt="">
+                                            </div>
+                                        </div>
+                                        <button onclick="toggleBlock('block2')" class="switch"><img src="img/Alt Arrow.png" alt="" class="switch__img"></button>
+                                    </div>
+                            
+                                </div>
+                                <div class="open-content">
+                                    <div class="block__open__Way">
+                                        <div class="text__open__block">
+                                            <div class="row open">
+                                                <p>Kaspi Bank (KZ)</p>
+                                                <span>4400 4302 3322 4291</span>
+                                                <button onclick="copyText(this)" class="copier"><img src="/img/Copy__img.png" alt="" class="copy__img"></button>    
+                                              </div>
+                                              
+                                              <div class="row open">
+                                                <p>РСК Банк (KG)</p>
+                                                <span>9417 0885 9191 3259</span>
+                                                <button onclick="copyText(this)" class="copier"><img src="/img/Copy__img.png" alt=""></button>    
+                                              </div>
+                                            <p class="p__addition">Если ни один из способов вам не подходит, вы также можете внести деньги через любую карту мира, где имеется пометка «Visa» в углу карты. Для этого обратитесь к агенту клуба.</p>
+                                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                            <div class="block" id="block3">
+                                <div class="closed-content">
+                                    <div class="block__Way">
+                                        <div class="text__block">
+                                            <p>Онлайн-кошелёк</p>
+                                            <div class="img__cryp">
+                                              <img src="img/QIWI_logo.png" alt="">
+                                              <img src="img/PayPal 1.png" alt="">
+                                            </div>
+                                        </div>
+                                        <button onclick="toggleBlock('block3')" class="switch"><img src="img/Alt Arrow.png" alt="" class="switch__img"></button>
+                                    </div>
+                            
+                                </div>
+                                <div class="open-content">
+                                    <div class="block__open__Way">
+                                        <div class="text__open__block">
+                                            <div class="row open">
+                                                <p>Также мы принимаем оплату через кошельки, такие как PayPal, QIWI и другие.Чтобы воспользоваться этим способом оплаты, обратитесь к агенту клуба.</p>
+                                              </div>                                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <div class="content__conclusion">
+                        <h3>Вывод</h3>
+                        <div class="text__info__conclusion">
+                            <p>Вы можете запросить вывод средств, если у вас есть 60 фишек, что эквивалентно 16.5$. Чтобы осуществить вывод, необходимо сыграть минимум 300 раздач. Количество сыгранных рук обновляется после каждого большого фриролла.</p>
+                            <p>Вывод средств возможен на все мировые карты с пометкой «Visa», а также на криптовалюту, онлайн-кошельки и другие варианты.</p>
+                            <div class="row">
+                                <p>Для проведения вывода, пожалуйста, обратитесь к</p>
+                                <div class="contacts__row__conclusion">
+                                    <img src="img/Telegram __instru.png" alt="">
+                                    <span><a href="https://t.me/LeonAgent1">Агенту клуба</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    
+    <footer>
+        <div class="container">
+            <div class="info__footer">
+                <div class="text__footer">
+                    <p>Все права защищены. Игра в покер разрешена только для лиц, достигших совершеннолетия. Мы стремимся предоставить нашим гостям увлекательное развлечение, однако призываем их играть ответственно и осознанно.</p>
+                    <p>Запрещено копирование и использование материалов, размещенных на нашем сайте, без предварительного согласия правообладателя. Мы ценим интеллектуальную собственность и просим соблюдать эту политику. Пользование нашим сайтом подразумевает ваше полное согласие с нашими Условиями использования и Политикой конфиденциальности. Мы рекомендуем вам ознакомиться с этими документами, чтобы быть в курсе правил и норм, регулирующих ваше взаимодействие с нами.</p>
+                    <p>Leon Club – Опыт, азарт, великие победы.</p>
+                </div>
+
+                <div class="ending__footer">
+                    <div class="left__ending">
+                        <span>© 2023 Leon Club </span>
+                    </div>
+                    <div class="right__ending">
+                        <span><a href="/Terms_of_Use.html">Условия использования </a></span>
+                        <span><a href="/Privacy_Policy.html">Политика конфиденциальности</a></span>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+      
+
+    <script src="./js.js"></script>
+</body>
+</html>
